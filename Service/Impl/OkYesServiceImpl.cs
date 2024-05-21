@@ -26,5 +26,7 @@ public class OkYesServiceImpl : OkYesService
                 Console.Write($"{i} ");
             }
         }
+
+        Console.WriteLine();
     }
 }

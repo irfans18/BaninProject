@@ -21,6 +21,9 @@ class Program
         Console.WriteLine();
         PopSortService popSortService = new PopSortServiceImpl();
         int[] popped = popSortService.Pop(3, new[] { 12, 9, 13, 6, 10, 4, 7, 2 });
+        popSortService.Display(popped);
+        Console.WriteLine();
+        Console.WriteLine();
         int[] sorted = popSortService.Sort(popped);
         popSortService.Display(sorted);
         
